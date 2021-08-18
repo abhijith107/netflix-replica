@@ -1,0 +1,104 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-logo{
+    width: 14%;
+}
+.btn-sign{
+    background-color: #e50914;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4 ),rgba(0,0,0,0.8)),url(/img/dUyCkp.jpg);
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    padding-top: 1;
+}
+.main-container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sub-container{
+    color: white;
+    text-align: 50%;
+    width: 50%;
+
+}
+.main-title{
+    font-size: 4.2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 30px;
+
+}
+.sub2-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.email-container{
+ width: 55%;
+ height: fit-content;
+ background-color: white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.ggwp{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    color: white;
+    background-color: #e50914;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.btn-get-started:hover{
+    
+    background-color: #ff0b18;
+   
+
+}
